@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
+Na ovom sajtu ću objavljivati svoje neke tekstove na razne teme.
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Pričekajte još malo za novosti
