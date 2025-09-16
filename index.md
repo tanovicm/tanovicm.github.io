@@ -1,3 +1,3 @@
-Na ovom sajtu ću objavljivati svoje neke tekstove na razne teme.
+# Dobrodošli
 
-Pričekajte još malo za novosti
+Ovo je početna stranica.
