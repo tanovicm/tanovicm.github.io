@@ -3,6 +3,17 @@ hr {
   margin-bottom: 20px;
 }
 
+/* Justified text for blog posts */
+.post-content {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.post-content p {
+  text-align: justify;
+  margin-bottom: 1.2em;
+}
+
 /* Post navigation links */
 .post_navi {
   display: flex;
