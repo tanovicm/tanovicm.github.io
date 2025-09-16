@@ -12,7 +12,6 @@ Vremenom je to klupko počelo da se odmotava. Moj pogled na njih se menjao, spor
 
 Na sličan način sam i ovu edukaciju započela sa skepsom. Mislila sam da se radi o temi koja je suviše daleka, gotovo nestvarna. Međutim, slušajući predavanja i primere iz prakse, postalo mi je jasno da roditeljsko otuđivanje nije neka teorijska konstrukcija već ozbiljna pretnja zdravom razvoju deteta.
 
-## Roditeljsko otuđivanje
 
 Prema definiciji, roditeljsko otuđivanje je proces u kojem jedan roditelj, svesno ili nesvesno, vrši manipulaciju nad detetom tako da se ono udaljava od drugog roditelja, razvija negativna osećanja, a u krajnjoj instanci i mržnju, bez opravdanog razloga. 
 
@@ -22,7 +21,6 @@ Važno je napraviti distinkciju između opravdanog udaljavaljanja deteta, kao š
 
 Čak i tada je roditelj svestan važnosti uključivanja oba roditelja u život deteta. U procesu otuđivanja, dete je sredstvo u borbi za moć roditelja otuđivača.
 
-## Posledice po dete
 
 Aktivno podrivanje odnosa svog deteta sa drugim roditeljem, bez posebnog razloga, teško je prihvatiti. Dodatnu težinu nosi to što deca koja se nađu u ovoj situaciji plaćaju cenu ponašanja svojih roditelja sopstvenim mentalnim i emotivnim zdravljem. 
 
@@ -32,7 +30,6 @@ Emocionalna konfuzija, strah od odbacivanja i osećaj da su izdala jednog rodite
 
 Šta to znači za društvo? To znači da rastu generacije koje umesto sigurnosti i poverenja nose sa sobom sumnju i na drugom kraju, nesigurnost. Umesto da dobiju resurse da izgrade stabilan život, oni se nose sa traumama koje nisu njihove.
 
-## Lični osvrt
 
 Pišem ovaj esej u trudnoći, tek nekoliko meseci pred porođaj. Činjenica da sam u ovom periodu slušala predavanja o otuđivanju, sama tema me dodatno pogodila. 
 
@@ -44,7 +41,6 @@ U porodici i među poznanicima, kroz detinje oči nisam tada umela da prepoznam,
 
 Kada sam se kroz edukaciju osvrnula na ta iskustva, postalo mi je jasno da otuđivanje nije retka pojava, već nešto što društvo dugo nije dovoljno imenovalo.
 
-## Terapijski rad
 
 Rad sa decom koja su izložena otuđivanju predstavlja poseban izazov. Terapeut se nalazi u veoma osetljivoj poziciji – dete dolazi već oblikovano pričom jednog roditelja, često uverenog da drugi roditelj nije vredan ljubavi. Kako navigirati kroz takvu psihu, a da dete ne oseti da mu se nameće nova „istina"?
 
@@ -58,12 +54,10 @@ Sa druge strane, rad sa roditeljem koji otuđuje je gotovo nemoguć – jer taj 
 
 Iskusan terapeut pre ili kasnije uspeva da prozre kroz njegov narativ da je on žrtva, savezništvo sa terapeutom ne uspeva i oni se povlače iz procesa.
 
-## Širi uticaj
 
 Roditeljsko otuđivanje nije samo drama iza zatvorenih vrata jednog doma. To je i društveni problem. Sudovi, centri za socijalni rad i škole često nemaju dovoljno alata da prepoznaju ovu pojavu. Ona se teško dokazuje, jer se odvija u suptilnim oblicima – kroz komentare, kroz „sitne“ zabrane, kroz emocionalne ucene.
 U današnjem društvu, broj razvoda je sve veći, sistemska podrška spora, nedovoljna, a rizik da deca postanu kolateral porodičnih sukoba je ogroman. Upravo zato je važno da stručnjaci prepoznaju znakove otuđivanja, da rade na edukaciji i prevenciji i da se o ovome javno govori.
 
----
 
 Kroz ovu edukaciju sam shvatila da roditeljsko otuđivanje nije daleka i retka pojava, već realnost sa kojom se mnogi ljudi susreću, a da toga često nisu ni svesni. Kao buduća majka, osećam i strah i odgovornost – strah od toga koliko su međuljudski odnosi krhki, ali i odgovornost da svoje dete učim poverenju i otvorenosti.
 
