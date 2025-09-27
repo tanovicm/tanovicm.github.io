@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<link href="/css/override.css" rel="stylesheet" type="text/css">
+<article class="presentation-page">
+  <header class="presentation-header">
+    <h1 class="presentation-title">{{ page.title | escape }}</h1>
+    <div class="presentation-meta">
+      <p class="presentation-date">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ page.date | date: date_format }}
+        </time>
+      </p>
+      {% if page.description %}
+        <p class="presentation-description">{{ page.description }}</p>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="presentation-content">
+    {% if page.pdf_file %}
+      <div class="presentation-viewer">
+        <div class="pdf-controls">
+          <button id="prev-page" title="Prethodna stranica">‹</button>
+          <span id="page-info">
+            <span id="page-num">1</span> / <span id="page-count">-</span>
+          </span>
+          <button id="next-page" title="Sledeća stranica">›</button>
+          <button id="zoom-out" title="Umanji">-</button>
+          <span id="zoom-level">100%</span>
+          <button id="zoom-in" title="Uvećaj">+</button>
+          <a href="{{ page.pdf_file }}" target="_blank" class="download-link" title="Otvori u novom tabu">⤴</a>
+        </div>
+        <canvas id="pdf-render"></canvas>
+      </div>
+    {% endif %}
+
+    {% if page.pptx_file %}
+      <div class="download-section">
+        <h3>Preuzmi prezentaciju</h3>
+        <a href="{{ page.pptx_file }}" class="download-button pptx-download" download>
+          📄 Preuzmi PPTX
+        </a>
+      </div>
+    {% endif %}
+
+    {% if content != "" %}
+      <div class="presentation-notes">
+        <h3>Napomene</h3>
+        {{ content }}
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="presentation-navigation">
+    <a href="/presentations/" class="back-to-presentations">← Nazad na prezentacije</a>
+  </div>
+</article>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="/assets/js/presentation-viewer.js"></script>

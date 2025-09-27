@@ -69,3 +69,369 @@ hr {
   font-size: 2.5em;
   opacity: 0.3;
 }
+
+/* Site Navigation */
+.site-nav {
+  background: #f8f9fa;
+  border-bottom: 1px solid #e1e4e8;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+.site-nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.nav-link {
+  color: #586069;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  background: #e1e4e8;
+  color: #24292e;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  background: #0366d6;
+  color: white;
+}
+
+/* Presentations Page Styles */
+.presentations-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  color: #586069;
+  font-size: 1.1rem;
+}
+
+.presentations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.presentation-card {
+  background: white;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.presentation-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.presentation-thumbnail {
+  height: 200px;
+  background: #f6f8fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.presentation-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.default-thumbnail {
+  font-size: 4rem;
+  opacity: 0.3;
+}
+
+.presentation-info {
+  padding: 1.5rem;
+}
+
+.presentation-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+}
+
+.presentation-title a {
+  color: #24292e;
+  text-decoration: none;
+}
+
+.presentation-title a:hover {
+  color: #0366d6;
+}
+
+.presentation-date {
+  color: #586069;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.presentation-description {
+  color: #586069;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.presentation-links {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.presentation-links a {
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.view-link {
+  background: #0366d6;
+  color: white !important;
+}
+
+.view-link:hover {
+  background: #0256cc;
+}
+
+.pdf-link {
+  background: #dc3545;
+  color: white !important;
+}
+
+.pdf-link:hover {
+  background: #c82333;
+}
+
+.pptx-link {
+  background: #fd7e14;
+  color: white !important;
+}
+
+.pptx-link:hover {
+  background: #e8650f;
+}
+
+.no-presentations {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #586069;
+}
+
+.no-presentations code {
+  background: #f6f8fa;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+/* Presentation Viewer Styles */
+.presentation-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.presentation-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.presentation-title {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.presentation-meta {
+  color: #586069;
+}
+
+.presentation-date {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.presentation-description {
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.presentation-viewer {
+  background: white;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.pdf-controls {
+  background: #f6f8fa;
+  border-bottom: 1px solid #e1e4e8;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.pdf-controls button,
+.pdf-controls .download-link {
+  background: #0366d6;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.2s ease;
+}
+
+.pdf-controls button:hover,
+.pdf-controls .download-link:hover {
+  background: #0256cc;
+}
+
+.pdf-controls button:disabled {
+  background: #6c757d;
+  cursor: not-allowed;
+}
+
+#page-info {
+  color: #586069;
+  font-weight: 500;
+  margin: 0 1rem;
+}
+
+#zoom-level {
+  color: #586069;
+  font-weight: 500;
+  margin: 0 0.5rem;
+}
+
+#pdf-render {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  background: white;
+}
+
+.download-section {
+  background: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.download-section h3 {
+  margin-bottom: 1rem;
+  color: #24292e;
+}
+
+.download-button {
+  display: inline-block;
+  background: #28a745;
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.download-button:hover {
+  background: #218838;
+  color: white;
+  text-decoration: none;
+}
+
+.presentation-notes {
+  background: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.presentation-notes h3 {
+  margin-bottom: 1rem;
+  color: #24292e;
+}
+
+.presentation-navigation {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.back-to-presentations {
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-to-presentations:hover {
+  text-decoration: underline;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .site-nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  
+  .presentations-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .pdf-controls {
+    padding: 0.75rem;
+    gap: 0.5rem;
+  }
+  
+  .pdf-controls button,
+  .pdf-controls .download-link {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+  
+  .presentation-title {
+    font-size: 1.8rem;
+  }
+  
+  .page-header h1 {
+    font-size: 2rem;
+  }
+}
